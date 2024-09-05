@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style:normal;
+}
+
+:root {
+  --primary: #13C5DD;
+  --secondary: #354F8E;
+  --light: #EFF5F9;
+  --dark: #1D2A4D;
+}
+
+.nav-item .nav-link {
+  color: #1D2A4D;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+  color: #13C5DD;
+}
+
+.hero-header {
+  background: url(../public/assets/hero.jpg);
+  background-size: cover;
+}
+
+.primary {
+ color: #13C5DD;
+}
+.primary-bg {
+  background-color: #13C5DD;
+}
+.light {
+  color: #EFF5F9;
+}
+.light-bg {
+  background-color: #EFF5F9;
+}
+.secondary {
+  color: #354F8E;
+}
+.dark {
+  color: #1D2A4D;
+}
+.dark-bg {
+  color: #1D2A4D;
+}
+
+.service {
+    height: 350px;
+    padding: 0px 30px;
+    transition: 0.5s;
+}
+
+.service .service-icon {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary);
+  border-radius: 50%;
+  transform: rotate(15deg);
+}
+
+.service .service-icon i {
+ transform: rotate(-15deg);
+}
+
+.primary-btn {
+  width: 100%;
+  background-color: #13C5DD;
+  border: none;
+  outline: none;
+  color: white;
+  transition: 0.6s;
+}
+.primary-btn:hover {
+  background-color: #1D2A4D;
+}
+
+.btn-primary-footer {
+  background-color: #13C5DD;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  border: none;
+}
+
+.btn-primary-footer:hover {
+  color:var(--dark);
+}
+
+.medical_apply {
+  padding: 10px 15px;
+  background-color: #13C5DD;
+  color: white;
+  font-weight: 600;
+  transition: 0.6s;
+}
+
+.medical_apply:hover {
+  background-color:#1D2A4D;
+}
+
+.light-text {
+  color: #949a9e;
+}
+
+.img-dark {
+  background-color: #354F8E;
+  filter: brightness(30%);
+}
+.dark-btn {
+  background-color: #1D2A4D;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+}
+
+.dark-btn:hover {
+  background-color: #354F8E;
+}
